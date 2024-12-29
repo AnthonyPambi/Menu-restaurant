@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('imagenes/great-wall-of-china-393635.jpg');
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center center;
+    background-attachment: fixed; /* Fixed background */
+    height: 100vh; /* Full height of the viewport */
+
+}
+
+header {
+    font-family: 'Merriweather', serif;
+    background-color: rgb(84, 88, 54);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 2em;
+
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+/*Prueba*/
+.menu-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: scale(1.05); /* Zoom suave */
+}
+
+.menu-item .text {
+    transition: opacity 0.3s ease;
+}
+
+.menu-item:hover .text {
+    opacity: 0; /* Hace desaparecer el texto */
+}
+
+.menu-item .image img {
+    transition: opacity 0.3s ease;
+}
+
+.menu-item:hover .image img {
+    opacity: 1; /* Asegura que la imagen esté visible */
+}
+
+/*Prueba*/
+.separator {
+    border: none;
+    height: 10px;
+    background-color: rgb(84, 88, 54);
+    margin: 20px 0;
+    width: 80%; /* Adjust width as needed */
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Prueba de titulo*/
+.drinks-title { 
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 3em; /* Similar size to h1 */
+    color: black; /* Color del texto */
+    margin: 20px 0;
+    animation: heartbeat 3s ease-in-out infinite; /* Llama a la animación "heartbeat" */
+    text-shadow: 2px 2px 5px white, -2px -2px 5px white, 2px -2px 5px white, -2px 2px 5px white; /* Borde azul alrededor del texto */
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1); /* Tamaño original */
+    }
+    25% {
+        transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    }
+    50% {
+        transform: scale(1.2); /* Aumenta el tamaño más */
+    }
+    75% {
+        transform: scale(1.1); /* Disminuye un poco el tamaño */
+    }
+    100% {
+        transform: scale(1); /* Vuelve al tamaño original */
+    }
+}
+
+
+/*Prueba de titulo*/
+footer {
+    text-align: center;
+    padding: 10 px;
+    background-color: rgb(84, 88, 54);
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 1em;
+}
