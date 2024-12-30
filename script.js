@@ -3,55 +3,55 @@ const menuItems = [
         title: "Sushi",
         value: "$12.99",
         description: "Delicious sushi rolls with fresh fish and vegetables.",
-        image: "/platos/istockphoto-177096343-612x612.jpg"// Replace with a valid image URL
+        image: "platos/istockphoto-177096343-612x612.jpg"// Replace with a valid image URL
     },
     {
         title: "Ramen",
         value: "$12.99",
         description: "Hearty ramen noodles in a savory broth.",
-        image: "/platos/japanese-ramen-on-a-bowl-eggs-chopsticks-noodles-meat-seaweed-green-onions-soup-dish-isolated-on-white-background-vector.jpg"
+        image: "platos/japanese-ramen-on-a-bowl-eggs-chopsticks-noodles-meat-seaweed-green-onions-soup-dish-isolated-on-white-background-vector.jpg"
     },
     {
         title: "Dumplings",
         value: "$12.99",
         description: "Steamed dumplings filled with pork and vegetables.",
-        image: "/platos/dumplings-aislados-plato-sobre-fondo-blanco_961875-300101.jpg", // Replace with a valid image URL
+        image: "platos/dumplings-aislados-plato-sobre-fondo-blanco_961875-300101.jpg", // Replace with a valid image URL
     },
     {
         title: "Pad Thai",
         value: "$12.99",
         description: "Stir-fried rice noodles with shrimp, peanuts, and bean sprouts.",
-        image: "/platos/istockphoto-1300071546-612x612.jpg" // Replace with a valid image URL
+        image: "platos/istockphoto-1300071546-612x612.jpg" // Replace with a valid image URL
     },
     {
         title: "Chaulafan",
         value: "$12.99",
         description: "Stir-fried rice noodles with shrimp, peanuts, and bean sprouts.",
-        image: "/platos/istockphoto-585159970-612x612.jpg" // Replace with a valid image URL
+        image: "platos/istockphoto-585159970-612x612.jpg" // Replace with a valid image URL
     },
     {
         title: "Tallarin Saltado",
         value: "$12.99",
         description: "Stir-fried rice noodles with shrimp, peanuts, and bean sprouts.",
-        image: "/platos/vector-comida-china-diseno-asiatico-ilustracion-plantilla-fondo-orient-tradicional_1013341-122082.jpg" // Replace with a valid image URL
+        image: "platos/vector-comida-china-diseno-asiatico-ilustracion-plantilla-fondo-orient-tradicional_1013341-122082.jpg" // Replace with a valid image URL
     },
     {
         title: "Lomo Saltado",
         value: "$12.99",
         description: "Stir-fried rice noodles with shrimp, peanuts, and bean sprouts.",
-        image: "/platos/images (1).jpg" // Replace with a valid image URL
+        image: "platos/images (1).jpg" // Replace with a valid image URL
     },
     {
         title: "Chaulafan Especial",
         value: "$12.99",
         description: "Stir-fried rice noodles with shrimp, peanuts, and bean sprouts.",
-        image: "/platos/CHAULAFAN.jpg" // Replace with a valid image URL
+        image: "platos/CHAULAFAN.jpg" // Replace with a valid image URL
     },
     {
         title: "Chaulafan de Mixto",
         value: "$12.99",
         description: "Stir-fried rice noodles with shrimp, peanuts, and bean sprouts.",
-        image: "/platos/arroz-chaufa-comida-peruana-plato-arroz-frito-verduras-diferentes-carnes_136753-122.avif" // Replace with a valid image URL
+        image: "platos/arroz-chaufa-comida-peruana-plato-arroz-frito-verduras-diferentes-carnes_136753-122.avif" // Replace with a valid image URL
     },
     {
         title: "Pad Thai",
@@ -72,25 +72,25 @@ const drinksItems = [
         title: "Coca Cola",
         description: "Sweet tea with chewy tapioca pearls.",
         value: "$4.50",
-        image: "/Bebidas/botella-coca-cola-sienta-sobre-fondo-blanco_1010691-17287.avif" // Replace with a valid image URL
+        image: "Bebidas/botella-coca-cola-sienta-sobre-fondo-blanco_1010691-17287.avif" // Replace with a valid image URL
     },
     {
         title: "Pepsi Grande",
         description: "Traditional Japanese rice wine.",
         value: "$6.99",
-        image: "/Bebidas/images.jpg" // Replace with a valid image URL
+        image: "Bebidas/images.jpg" // Replace with a valid image URL
     },
     {
         title: "Agua",
         description: "Creamy yogurt drink blended with mango.",
         value: "$3.99",
-        image: "/Bebidas/istockphoto-1032678242-612x612.jpg" // Replace with a valid image URL
+        image: "Bebidas/istockphoto-1032678242-612x612.jpg" // Replace with a valid image URL
     },
     {
         title: "Jugo de Naranja",
         description: "Creamy yogurt drink blended with mango.",
         value: "$3.99",
-        image: "/Bebidas/vaso-jugo-naranja-aislado-sobre-fondo-blanco_143106-514.avif" // Replace with a valid image URL
+        image: "Bebidas/vaso-jugo-naranja-aislado-sobre-fondo-blanco_143106-514.avif" // Replace with a valid image URL
     },
 ];
 
@@ -99,25 +99,25 @@ const acompaItems = [
         title: "Porcion de Arroz",
         description: "Refreshing green tea served hot or cold.",
         value: "$2.99",
-        image: "/acompañante/arroz-plato-blanco-aislado-sobre-fondo-blanco_263154-2902.avif" // Replace with a valid image URL
+        image: "acompañante/arroz-plato-blanco-aislado-sobre-fondo-blanco_263154-2902.avif" // Replace with a valid image URL
     },
     {
         title: "Sopa de Pollo",
         description: "Refreshing green tea served hot or cold.",
         value: "$2.99",
-        image: "/acompañante/plato-sopa-pollo-aislado-sobre-fondo-blanco_185193-76006.avif" // Replace with a valid image URL
+        image: "acompañante/plato-sopa-pollo-aislado-sobre-fondo-blanco_185193-76006.avif" // Replace with a valid image URL
     },
     {
         title: "Sopa de Wantan",
         description: "Refreshing green tea served hot or cold.",
         value: "$2.99",
-        image: "/acompañante/images.jpg" // Replace with a valid image URL
+        image: "acompañante/images.jpg" // Replace with a valid image URL
     },
     {
         title: "Sopa de Camaron",
         description: "Refreshing green tea served hot or cold.",
         value: "$2.99",
-        image: "/acompañante/images (1).jpg" // Replace with a valid image URL
+        image: "acompañante/images (1).jpg" // Replace with a valid image URL
     },
     {
         title: "Sopa de Carne",
@@ -132,31 +132,31 @@ const postreItems = [
         title: "Gelatina",
         description: "Refreshing green tea served hot or cold.",
         value: "$2.99",
-        image: "/postres/vaso-gelatina-fresa-aislado-sobre-superficie-blanca_185193-31743.avif" // Replace with a valid image URL
+        image: "postres/vaso-gelatina-fresa-aislado-sobre-superficie-blanca_185193-31743.avif" // Replace with a valid image URL
     },
     {
         title: "Flan",
         description: "Refreshing green tea served hot or cold.",
         value: "$2.99",
-        image: "/postres/Catalogo-Samadhi-202000160.jpg" // Replace with a valid image URL
+        image: "postres/Catalogo-Samadhi-202000160.jpg" // Replace with a valid image URL
     },
     {
         title: "Helado",
         description: "Refreshing green tea served hot or cold.",
         value: "$2.99",
-        image: "/postres/palo-helado-aislado-sobre-fondo-blanco_167862-971.avif" // Replace with a valid image URL
+        image: "postres/palo-helado-aislado-sobre-fondo-blanco_167862-971.avif" // Replace with a valid image URL
     },
     {
         title: "Tarrina",
         description: "Refreshing green tea served hot or cold.",
         value: "$2.99",
-        image: "/postres/images.jpg" // Replace with a valid image URL
+        image: "postres/images.jpg" // Replace with a valid image URL
     },
     {
         title: "Postre de Chocolate",
         description: "Refreshing green tea served hot or cold.",
         value: "$2.99",
-        image: "/postres/imageschoco.jpg" // Replace with a valid image URL
+        image: "postres/imageschoco.jpg" // Replace with a valid image URL
     },
 ]
 
