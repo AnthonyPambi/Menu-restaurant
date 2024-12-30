@@ -39,7 +39,8 @@ header {
     border-radius: 5px;
     margin: 10px;
     padding: 15px;
-    width: 250px;
+    width: 120px;
+    font-size: 12px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
     position: relative;
@@ -53,7 +54,7 @@ header {
 /*prueba*/
 .menu-item img {
     width: 100%; /* Ocupa el ancho completo del contenedor */
-    height: 100px; /* Mantiene la proporción de la imagen */
+    height: 75px; /* Mantiene la proporción de la imagen */
     object-fit: cover; /* Asegura que se recorte la imagen si es necesario */
     border-radius: 3px 3px 0 0; /* Opcional: redondea las esquinas superiores */
 }
@@ -121,7 +122,7 @@ header {
 /* Media Queries */
 @media (max-width: 768px) {
     .menu-item {
-        width: 45%; /* Ajustar tamaño en pantallas medianas */
+        width: 35%; /* Ajustar tamaño en pantallas medianas */
     }
 
     .drinks-title {
