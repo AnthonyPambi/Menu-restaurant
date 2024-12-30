@@ -13,11 +13,16 @@ body {
 
 header {
     font-family: 'Merriweather', serif;
-    background-color: rgb(84, 88, 54);
+    background-image: url('imagenes/chinese-new-year-banner-background-vector.jpg');
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center center;
+    background-attachment: fixed; /* Fixed background */
     color: white;
     text-align: center;
     padding: 1rem 0;
     font-size: 2em;
+    text-shadow: 2px 2px 5px black, -2px -2px 5px black, 2px -2px 5px black, -2px 2px 5px black;
 
 }
 
@@ -45,7 +50,15 @@ header {
 .menu-item:hover {
     transform: scale(1.05); /* Zoom suave */
 }
+/*prueba*/
+.menu-item img {
+    width: 100%; /* Ocupa el ancho completo del contenedor */
+    height: 100px; /* Mantiene la proporción de la imagen */
+    object-fit: cover; /* Asegura que se recorte la imagen si es necesario */
+    border-radius: 3px 3px 0 0; /* Opcional: redondea las esquinas superiores */
+}
 
+/*prueba*/
 .menu-item .text {
     transition: opacity 0.3s ease;
 }
@@ -66,7 +79,7 @@ header {
 .separator {
     border: none;
     height: 10px;
-    background-color: rgb(84, 88, 54);
+    background-color: red;
     margin: 20px 0;
     width: 80%; /* Adjust width as needed */
     margin-left: auto;
@@ -101,8 +114,11 @@ header {
     }
 }
 
+/*Prueba de titulo*/
 
 /*Prueba de titulo*/
+
+/* Media Queries */
 @media (max-width: 768px) {
     .menu-item {
         width: 45%; /* Ajustar tamaño en pantallas medianas */
@@ -130,7 +146,7 @@ header {
 /*Prueba de titulo*/
 
 
-footer {
+  footer {
     text-align: center;
     padding: 10 px;
     background-color: rgb(84, 88, 54);
@@ -139,5 +155,5 @@ footer {
     bottom: 0;
     width: 100%;
     font-size: 1em;
-}
+   }
 }
