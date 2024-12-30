@@ -103,6 +103,33 @@ header {
 
 
 /*Prueba de titulo*/
+@media (max-width: 768px) {
+    .menu-item {
+        width: 45%; /* Ajustar tamaño en pantallas medianas */
+    }
+
+    .drinks-title {
+        font-size: 2em; /* Reducir tamaño del título */
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-item {
+        width: 90%; /* Una sola columna en pantallas pequeñas */
+    }
+
+    header {
+        font-size: 1.5em; /* Ajustar tamaño de texto */
+        padding: 0.5rem;
+    }
+
+    .drinks-title {
+        font-size: 1.8em;
+    }
+
+/*Prueba de titulo*/
+
+
 footer {
     text-align: center;
     padding: 10 px;
@@ -112,4 +139,5 @@ footer {
     bottom: 0;
     width: 100%;
     font-size: 1em;
+}
 }
